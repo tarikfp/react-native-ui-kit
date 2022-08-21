@@ -44,7 +44,7 @@ A button is component that the user can press to trigger an action.
 
 #### Properties
 
-Inherits [TouchableOpacity](https://reactnative.dev/docs/touchableopacity#props) and the following:
+Inherits [TouchableOpacity props](https://reactnative.dev/docs/touchableopacity#props) and the following:
 
 | Prop                  | Type                                                                           | Description                                                                                            |
 | --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -156,7 +156,7 @@ Headers are the components that display information and actions for the current 
 
 #### Properties
 
-Inherits [View](https://reactnative.dev/docs/view#props) and the following:
+Inherits [View props](https://reactnative.dev/docs/view#props) and the following:
 
 | Prop                  | Type                   | Description                                                             |
 | --------------------- | ---------------------- | ----------------------------------------------------------------------- |
@@ -275,7 +275,7 @@ Text Input is a component for inputting text into the app via a keyboard.
 
 #### Properties
 
-Inherits [TextInput](https://reactnative.dev/docs/textinput#props) and the following:
+Inherits [TextInput props](https://reactnative.dev/docs/textinput#props) and the following:
 
 | Prop                        | Type                    | Description                                                                                                                                                                               |
 | --------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -379,7 +379,7 @@ List items are used to display rows of information, they are extremely flexible 
 
 #### Properties
 
-Inherits [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props) and the following:
+Inherits [TouchableOpacity props](https://reactnative.dev/docs/touchableopacity#props) and the following:
 
 | Prop                  | Type                   | Description                                                                |
 | --------------------- | ---------------------- | -------------------------------------------------------------------------- |
