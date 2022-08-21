@@ -1,6 +1,6 @@
 {
-  "name": "react-native-ui-kit",
-  "version": "0.1.0",
+  "name": "@tarikfp/react-native-ui-kit",
+  "version": "0.0.1",
   "description": "react-native-ui-kit",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
