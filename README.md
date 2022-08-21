@@ -1,8 +1,18 @@
-<div align="center"><h1>React Native UI Kit</h1></div>
+<div align="center"><h1>React Native UI Kit</h1></div> 
+
+<div align="center">
+
+ [![](https://img.shields.io/npm/dw/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/bundlephobia/minzip/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/npm/v/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/github/license/tarikpnr/react-native-ui-kit)](https://github.com/tarikpnr/react-native-ui-kit/blob/master/LICENSE)
+ 
+ </div>
+
+
 <br/>
 <div align="center">This library consists of a small set of components that are commonly used when building any kind of react native mobile app. Written in typescript.
 </div>
+
 <br/>
+
 
 <div align="center">
   <img src="./docs/showcase-ios.gif"/>
