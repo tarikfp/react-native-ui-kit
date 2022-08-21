@@ -20,9 +20,16 @@ export type Props = IconProps & {
   alignment?: "start" | "end";
 };
 
-export default function HeaderIcon({ style, alignment, ...iconProps }: Props) {
+export default function HeaderIcon({
+  style,
+  alignment,
+  wrapperStyle,
+  ...iconProps
+}: Props) {
   return (
-    <Pressable onPress={iconProps.onPress} style={getWrapperStyle(alignment)}>
+    <Pressable
+      onPress={iconProps.onPress}
+      style={[getWrapperStyle(alignment), wrapperStyle]}>
       <Icon style={style} {...iconProps} />
     </Pressable>
   );
@@ -43,6 +50,7 @@ const getWrapperStyle = (
 
 HeaderIcon.propTypes = {
   style: StylePropType,
+  wrapperStyle: StylePropType,
   alignment: PropTypes.oneOf(["start", "end"]),
 };
 

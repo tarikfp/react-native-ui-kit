@@ -6,17 +6,28 @@ import type { IconProps } from "../../vector-icons";
 import { default as Icon } from "../../vector-icons";
 
 export type Props = IconProps & {
+  /**
+   * style of the icon
+   */
   style?: StyleProp<TextStyle>;
+  /**
+   * style of the icon wrapper element
+   */
+  wrapperStyle?: StyleProp<ViewStyle>;
+  /**
+   * alignment of the icon
+   */
   alignment?: "start" | "end";
 };
 
 export default function ListItemIcon({
   style,
   alignment,
+  wrapperStyle,
   ...iconProps
 }: Props) {
   return (
-    <View style={getWrapperStyle(alignment)}>
+    <View style={[getWrapperStyle(alignment), wrapperStyle]}>
       <Icon style={style} {...iconProps} />
     </View>
   );

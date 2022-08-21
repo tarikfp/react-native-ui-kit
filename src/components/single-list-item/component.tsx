@@ -113,7 +113,7 @@ export type Props = TouchableOpacityProps & {
   readonly endSubtitle?: string;
   /**
    * Applies to shadow to the list item.
-   * @default true
+   * @default false
    */
   readonly hasShadow?: boolean;
 };
@@ -136,7 +136,7 @@ function SingleListItem({
   startTitleSubtitleContainerStyle,
   endTitleSubtitleContainerStyle,
   activeOpacity = 0.4,
-  hasShadow = true,
+  hasShadow = false,
   startSubtitleStyle,
   startTitleStyle,
   endSubtitleStyle,

@@ -1,22 +1,28 @@
 import PropTypes from "prop-types";
 import * as React from "react";
-import { StyleProp, TextStyle, View, ViewStyle } from "react-native";
+import { StyleProp, View, ViewStyle } from "react-native";
 import { Button, ButtonProps } from "../../button";
 import { StylePropType } from "../../utils";
 
 export type Props = ButtonProps & {
-  style?: StyleProp<TextStyle>;
+  /**
+   * style of the button wrapper
+   */
+  wrapperStyle?: StyleProp<ViewStyle>;
+  /**
+   * alignment of the button
+   */
   alignment?: "start" | "end";
 };
 
 export default function ListItemButton({
-  style,
   alignment,
+  wrapperStyle,
   ...buttonProps
 }: Props) {
   return (
-    <View style={[getWrapperStyle(alignment)]}>
-      <Button size="xsmall" style={style} {...buttonProps} />
+    <View style={[getWrapperStyle(alignment), wrapperStyle]}>
+      <Button size="xsmall" {...buttonProps} />
     </View>
   );
 }

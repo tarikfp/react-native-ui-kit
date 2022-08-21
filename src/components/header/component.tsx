@@ -10,6 +10,7 @@ import {
   ViewStyle,
 } from "react-native";
 import { BaseColors, BaseFonts, BaseShadow } from "../../theme";
+import { StylePropType } from "../utils";
 import HeaderIcon from "./components/icon";
 import HeaderImage from "./components/image";
 import HeaderTitle from "./components/title";
@@ -28,7 +29,7 @@ export type Props = ViewProps & {
   readonly height?: number;
   /**
    * Applies to shadow to the list item.
-   * @default true
+   * @default false
    */
   readonly hasShadow?: boolean;
   /**
@@ -59,7 +60,7 @@ export type Props = ViewProps & {
 
 function Header({
   height = DEFAULT_HEADER_HEIGHT,
-  hasShadow = true,
+  hasShadow = false,
   style,
   backgroundColor = "#0075E1",
   children,
@@ -131,6 +132,7 @@ Header.Title = HeaderTitle;
 export default Header;
 
 Header.propTypes = {
+  style: StylePropType,
   height: PropTypes.number,
   hasShadow: PropTypes.bool,
   backgroundColor: PropTypes.string,

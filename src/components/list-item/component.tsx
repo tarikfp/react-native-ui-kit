@@ -23,8 +23,12 @@ export type Props = TouchableOpacityProps & {
    */
   readonly height?: number;
   /**
+   * List item style.
+   */
+  readonly style?: StyleProp<ViewStyle>;
+  /**
    * Applies to shadow to the list item.
-   * @default true
+   * @default false
    */
   readonly hasShadow?: boolean;
   /**
@@ -57,7 +61,7 @@ export type Props = TouchableOpacityProps & {
 const ListItem = ({
   height = DEFAULT_LIST_ITEM_HEIGHT,
   activeOpacity = 0.4,
-  hasShadow = true,
+  hasShadow = false,
   style,
   backgroundColor = "#FFFFFF",
   children,

@@ -71,9 +71,11 @@ export default AvatarIcon;
 
 AvatarIcon.propTypes = {
   size: PropTypes.number,
-  iconColor: PropTypes.string,
   backgroundColor: PropTypes.string,
   style: StylePropType,
+  name: PropTypes.string,
+  type: PropTypes.string,
+  color: PropTypes.string,
   iconProps: PropTypes.object,
 };
 

@@ -50,7 +50,7 @@ export type Props = RNInputProps & {
    */
   readonly startIcon?: IconProps;
   /**
-   * TextInput left aligned custom element, overrides startIconProps
+   * TextInput left aligned custom element, overrides startIcon
    *
    * ```js
    *  <TextInput
@@ -87,7 +87,7 @@ export type Props = RNInputProps & {
    */
   readonly endIcon?: IconProps;
   /**
-   * TextInput right aligned custom element, overrides endIconProps
+   * TextInput right aligned custom element, overrides endIcon
    *
    * ```js
    *  <TextInput
@@ -126,7 +126,7 @@ export type Props = RNInputProps & {
    */
   readonly loadingProps?: ActivityIndicatorProps;
   /**
-   * Renders error section of the TextInput
+   * Renders loading section of the TextInput
    *
    * ```js
    *   <TextInput
@@ -144,7 +144,7 @@ export type Props = RNInputProps & {
     containerStyle: StyleProp<ViewStyle>,
   ) => React.ReactNode;
   /**
-   * Renders custom password icon while overriding default one. Use it with isPassword set to true.
+   * Renders custom password icon while overriding default one. Ensure isPassword is set to true.
    *
    * ```js
    *  <TextInput
@@ -172,7 +172,7 @@ export type Props = RNInputProps & {
   }) => React.ReactNode;
   /**
    * Whether all interactions are disabled in the TextInput
-   * If true background color will be grey and text will be disabled
+   * Background color will be grey in case of true.
    * @default false
    */
   readonly disabled?: boolean;
@@ -184,6 +184,7 @@ export type Props = RNInputProps & {
   readonly hideDefaultEndIcons?: boolean;
   /**
    * Custom text input height
+   * @default 56
    */
   readonly height?: number;
   /**
@@ -236,6 +237,8 @@ const INPUT_INNER_HORIZONTAL_SPACING = 30;
 
 const DEFAULT_INPUT_PADDING_HORIZONTAL = 16;
 
+const DEFAULT_INPUT_HEIGHT = 56;
+
 const defaultIconProps: Pick<IconProps, "size" | "color"> = {
   size: 24,
   color: BaseColors.textLight,
@@ -266,7 +269,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
     loadingProps,
     endTextStyle,
     hideDefaultEndIcons = false,
-    height = 56,
+    height = DEFAULT_INPUT_HEIGHT,
     errorColor = BaseColors.textRed,
     disabled = false,
     borderRadius = 8,

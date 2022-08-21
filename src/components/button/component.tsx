@@ -91,7 +91,7 @@ export type Props = TouchableOpacityProps & {
    * Props of indicator which will be visible on loading state
    * @see ActivityIndicatorProps
    */
-  readonly indicatorProps?: ActivityIndicatorProps;
+  readonly loadingProps?: ActivityIndicatorProps;
 };
 
 interface ButtonBaseStyle {
@@ -106,7 +106,7 @@ function Button({
   label,
   loading,
   disabledBackgroundColor,
-  indicatorProps,
+  loadingProps,
   backgroundColor,
   startIcon,
   endIcon,
@@ -242,11 +242,11 @@ function Button({
           <ActivityIndicator
             style={StyleSheet.flatten<ViewStyle>([
               styles.indicator,
-              indicatorProps?.style,
+              loadingProps?.style,
             ])}
             size={buttonSizeStyle().iconStyle.size}
             color={textContrastColor}
-            {...indicatorProps}
+            {...loadingProps}
           />
         ) : (
           endIcon && (

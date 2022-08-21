@@ -20,8 +20,11 @@ import ColumnContainer from "./showcase/layout/column-container";
 import RowContainer from "./showcase/layout/row-container";
 
 export default function App() {
-  const [email, setEmail] = React.useState("");
-  const [pass, setPass] = React.useState("");
+  const [email, setEmail] = React.useState<string>("");
+  const [pass, setPass] = React.useState<string>("");
+  const [rnInputText, setRnInputText] = React.useState<string>("");
+  const [loadingInputText, setLoadingInputText] = React.useState<string>("");
+  const [notification, setNotification] = React.useState<boolean>(true);
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -81,7 +84,6 @@ export default function App() {
             label="E-Mail"
             labelStyle={{ color: "#FFFFFF" }}
             endText="Special one"
-            endIcon={{ name: "keyboard", type: "Entypo" }}
             endTextStyle={{ color: "grey" }}
             placeholder="Type your email"
             placeholderTextColor="grey"
@@ -124,8 +126,8 @@ export default function App() {
             placeholderTextColor="grey"
             hideDefaultEndIcons
             startIcon={{ type: "MaterialCommunityIcons", name: "key" }}
-            value={pass}
-            onChangeText={setPass}
+            value={rnInputText}
+            onChangeText={setRnInputText}
           />
 
           <TextInput
@@ -137,8 +139,8 @@ export default function App() {
             endTextStyle={{ color: "grey" }}
             placeholderTextColor="grey"
             hideDefaultEndIcons
-            value={pass}
-            onChangeText={setPass}
+            value={loadingInputText}
+            onChangeText={setLoadingInputText}
           />
         </ColumnContainer>
         <ColumnContainer title="List Items">
@@ -191,7 +193,11 @@ export default function App() {
               wrapperStyle={{ marginLeft: 8 }}
               title="Push notifications"
             />
-            <Switch style={{ right: 12, position: "absolute" }} value />
+            <Switch
+              style={{ right: 12, position: "absolute" }}
+              value={notification}
+              onValueChange={setNotification}
+            />
           </ListItem>
         </ColumnContainer>
 
