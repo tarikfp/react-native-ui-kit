@@ -26,15 +26,16 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/tarikpnr/react-native-ui-kit/react-native-ui-kit",
+  "repository": "https://github.com/tarikpnr/react-native-ui-kit",
   "author": "Tarik Pinarci <tarikpnr147@gmail.com> (https://github.com/tarikpnr/react-native-ui-kit)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tarikpnr/react-native-ui-kit/react-native-ui-kit/issues"
+    "url": "https://github.com/tarikpnr/react-native-ui-kit/issues"
   },
-  "homepage": "https://github.com/tarikpnr/react-native-ui-kit/react-native-ui-kit#readme",
+  "homepage": "https://github.com/tarikpnr/react-native-ui-kit#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.yarnpkg.com/",
+    "access": "public"
   },
   "resolutions": {
     "@types/react": "^17"
