@@ -22,6 +22,19 @@
 
 </div>
 
+## Table of contents
+
+*  [Installing](#installing)
+*  [Components](#components)
+    * [Button](#button)
+    * [Avatar](#avatar)
+    * [Header](#header)
+    * [Text input](#text-input)
+    * [List item](#list-item)
+*  [License](#license)
+    
+    
+
 ## Installing
 
 Install dependencies
@@ -531,6 +544,9 @@ return (
   </ListItem>
 );
 ```
+
+## Contributing
+The main purpose of this library is to provide reusable, bug-free, and flexible components along with documentation. Contributors are always highly appreciated to keep this library maintained and enhance it more.
 
 ## License
 
