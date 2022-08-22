@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders avatar icon custom style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginLeft": 8,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 22.4,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`renders avatar icon with backgroundColor prop 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "royalblue",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 22.4,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`renders avatar icon with color prop 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "orange",
+          "fontSize": 22.4,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`renders avatar icon with name and type props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 22.4,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`renders avatar icon with size prop 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 22.5,
+        "height": 45,
+        "width": 45,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 31.499999999999996,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`renders icon with custom icon props  1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 22.4,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
