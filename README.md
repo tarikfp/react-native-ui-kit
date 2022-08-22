@@ -26,12 +26,9 @@
 
 *  [Installing](#installing)
 *  [Components](#components)
-    * [Button](#button)
-    * [Avatar](#avatar)
-    * [Header](#header)
-    * [Text input](#text-input)
-    * [List item](#list-item)
+*  [Contributing](#contributing)
 *  [License](#license)
+
     
     
 
