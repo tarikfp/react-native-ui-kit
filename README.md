@@ -8,7 +8,7 @@
 
 
 <br/>
-<div align="center">This library consists of a small set of components that are commonly used when building any kind of react native mobile app. Written in typescript.
+<div align="center">This library consists of a small set of components that are highly flexible, extensively tested and commonly used when building any kind of react native app. Written in typescript.
 </div>
 
 <br/>
