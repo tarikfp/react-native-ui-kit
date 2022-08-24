@@ -37,12 +37,12 @@ const getWrapperStyle = (
       ? "flex-start"
       : alignment === "end"
       ? "flex-end"
-      : "center"
+      : "center",
 });
 
 ListItemButton.displayName = "ListItem.Button";
 
 ListItemButton.propTypes = {
   style: StylePropType,
-  alignment: PropTypes.oneOf(["start", "end"])
+  alignment: PropTypes.oneOf(["start", "end"]),
 };

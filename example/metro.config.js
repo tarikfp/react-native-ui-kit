@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 const path = require("path");
 const blacklist = require("metro-config/src/defaults/blacklist");
 const escape = require("escape-string-regexp");
@@ -6,7 +7,7 @@ const pak = require("../package.json");
 const root = path.resolve(__dirname, "..");
 
 const modules = Object.keys({
-  ...pak.peerDependencies
+  ...pak.peerDependencies,
 });
 
 module.exports = {
@@ -26,15 +27,15 @@ module.exports = {
     extraNodeModules: modules.reduce((acc, name) => {
       acc[name] = path.join(__dirname, "node_modules", name);
       return acc;
-    }, {})
+    }, {}),
   },
 
   transformer: {
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        inlineRequires: true
-      }
-    })
-  }
+        inlineRequires: true,
+      },
+    }),
+  },
 };

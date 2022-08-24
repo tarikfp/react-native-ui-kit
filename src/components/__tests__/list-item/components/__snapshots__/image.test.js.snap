@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests list-item image component renders list-item image with source 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "https://reactjs.org/logo-og.png",
+    }
+  }
+  style={
+    Object {
+      "height": 50,
+      "width": 50,
+    }
+  }
+/>
+`;

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests list item title component renders list item title 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests list item title component renders list item title with custom subtitle style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests list item title component renders list item title with custom title style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        Object {
+          "fontSize": 40,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests list item title component renders list item title with custom wrapper style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+      },
+      Object {
+        "height": 70,
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests list item title component renders list item title with subtitle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test subtitle
+  </Text>
+</View>
+`;

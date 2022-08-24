@@ -1,0 +1,2110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests input component renders input with custom backgroundColor 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom border color 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "purple",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom borderRadius 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom disabled state 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom end element 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    >
+      <View>
+        <Image
+          source={
+            Object {
+              "uri": "https://reactjs.org/logo-og.png",
+            }
+          }
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom end text style 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(23, 37, 86, 0.4)",
+            "flex": 1,
+            "fontSize": 14,
+            "fontWeight": "500",
+            "lineHeight": 20,
+            "position": "absolute",
+            "right": 12,
+            "zIndex": 1,
+          },
+          Object {
+            "fontSize": 40,
+          },
+        ]
+      }
+    >
+      input end text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom endIcon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 42,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "rgba(23, 37, 86, 0.4)",
+              "fontSize": 24,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰁔
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom error color 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom error section 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom errorMessageIconProps 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "rgba(253, 81, 95, 1)",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginVertical": 6,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "rgba(253, 81, 95, 1)",
+            "fontSize": 16,
+          },
+          Object {
+            "marginHorizontal": 6,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "rgba(253, 81, 95, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "textAlign": "left",
+        }
+      }
+    >
+      error message
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom height 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 75,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom inputStyle 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "marginBottom": 20,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom label style 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 40,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom loading element 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom loading props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom password icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom start element 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View>
+        <Image
+          source={
+            Object {
+              "uri": "https://reactjs.org/logo-og.png",
+            }
+          }
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+    </View>
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom startIcon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "rgba(23, 37, 86, 0.4)",
+              "fontSize": 24,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰁍
+      </Text>
+    </View>
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 42,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with custom wrapperStyle 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "marginBottom": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with end text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(23, 37, 86, 0.4)",
+            "flex": 1,
+            "fontSize": 14,
+            "fontWeight": "500",
+            "lineHeight": 20,
+            "position": "absolute",
+            "right": 12,
+            "zIndex": 1,
+          },
+          undefined,
+        ]
+      }
+    >
+      input end text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with error message 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "rgba(253, 81, 95, 1)",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginVertical": 6,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "rgba(253, 81, 95, 1)",
+            "fontSize": 16,
+          },
+          Object {
+            "marginHorizontal": 6,
+          },
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "rgba(253, 81, 95, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "textAlign": "left",
+        }
+      }
+    >
+      error message
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with hiding default end icons state 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with label 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`tests input component renders input with loading state 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "left": 12,
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+    <TextInput
+      autoCapitalize="none"
+      placeholderTextColor="#F6F6F6"
+      secureTextEntry={false}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#A09AA5",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "rgba(35, 47, 72, 1)",
+          "fontSize": 16,
+          "height": 56,
+          "paddingLeft": 16,
+          "paddingRight": 42,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+    <ActivityIndicator
+      color="#0075E1"
+      size={20}
+      style={
+        Object {
+          "position": "absolute",
+          "right": 12,
+          "zIndex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;

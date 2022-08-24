@@ -72,7 +72,7 @@ describe("tests header icon component", () => {
           wrapperStyle={{
             backgroundColor: "royalblue",
             width: 600,
-            height: 50
+            height: 50,
           }}
         />
       )

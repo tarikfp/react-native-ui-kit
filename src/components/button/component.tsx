@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   TouchableOpacityProps,
   View,
-  ViewStyle
+  ViewStyle,
 } from "react-native";
 import warnOnce from "warn-once";
 import { BaseColors, BaseFonts } from "../../theme";
@@ -122,55 +122,55 @@ function Button({
         return {
           buttonStyle: {
             width: "100%",
-            height: 56
+            height: 56,
           },
           textStyle: {
-            ...BaseFonts.h3
+            ...BaseFonts.h3,
           },
           iconStyle: {
-            size: 25
-          }
+            size: 25,
+          },
         };
       case "medium":
         return {
           buttonStyle: {
             width: "80%",
-            height: 48
+            height: 48,
           },
           textStyle: {
-            ...BaseFonts.h4
+            ...BaseFonts.h4,
           },
           iconStyle: {
-            size: 22
-          }
+            size: 22,
+          },
         };
       case "small":
         return {
           buttonStyle: {
             minWidth: 103,
             height: 40,
-            paddingHorizontal: 24
+            paddingHorizontal: 24,
           },
           textStyle: {
-            ...BaseFonts.h4
+            ...BaseFonts.h4,
           },
           iconStyle: {
-            size: 18
-          }
+            size: 18,
+          },
         };
       case "xsmall":
         return {
           buttonStyle: {
             minWidth: 83,
             height: 35,
-            paddingHorizontal: 16
+            paddingHorizontal: 16,
           },
           textStyle: {
-            ...BaseFonts.p1
+            ...BaseFonts.p1,
           },
           iconStyle: {
-            size: 15
-          }
+            size: 15,
+          },
         };
       default:
         warnOnce(
@@ -182,14 +182,14 @@ function Button({
           buttonStyle: {
             minWidth: 103,
             height: 40,
-            paddingHorizontal: 24
+            paddingHorizontal: 24,
           },
           textStyle: {
-            ...BaseFonts.h4
+            ...BaseFonts.h4,
           },
           iconStyle: {
-            size: 18
-          }
+            size: 18,
+          },
         };
     }
   };
@@ -211,9 +211,9 @@ function Button({
         {
           backgroundColor: props.disabled
             ? disabledBackgroundColor ?? backgroundColor
-            : backgroundColor
+            : backgroundColor,
         },
-        style
+        style,
       ])}
       {...props}>
       <View style={styles.innerContainer}>
@@ -221,7 +221,7 @@ function Button({
           <Icon
             style={StyleSheet.flatten<ViewStyle>([
               { marginRight: 6 },
-              startIcon.style
+              startIcon.style,
             ])}
             size={buttonSizeStyle().iconStyle.size}
             color={textContrastColor}
@@ -233,7 +233,7 @@ function Button({
           style={StyleSheet.flatten<TextStyle>([
             { color: textContrastColor },
             buttonSizeStyle().textStyle,
-            labelStyle
+            labelStyle,
           ])}>
           {label}
         </RNText>
@@ -242,7 +242,7 @@ function Button({
           <ActivityIndicator
             style={StyleSheet.flatten<ViewStyle>([
               styles.indicator,
-              loadingProps?.style
+              loadingProps?.style,
             ])}
             size={buttonSizeStyle().iconStyle.size}
             color={textContrastColor}
@@ -253,7 +253,7 @@ function Button({
             <Icon
               style={StyleSheet.flatten<TextStyle>([
                 { marginLeft: 6 },
-                endIcon.style
+                endIcon.style,
               ])}
               size={buttonSizeStyle().iconStyle.size}
               color={textContrastColor}
@@ -278,7 +278,7 @@ Button.propTypes = {
   disabledBackgroundColor: PropTypes.string,
   startIcon: PropTypes.object,
   endIcon: PropTypes.object,
-  indicatorProps: PropTypes.object
+  indicatorProps: PropTypes.object,
 };
 
 interface Styles {
@@ -295,14 +295,14 @@ const styles = StyleSheet.create<Styles>({
     alignItems: "center",
     borderWidth: 1,
     borderColor: BaseColors.borderColor,
-    backgroundColor: BaseColors.primary
+    backgroundColor: BaseColors.primary,
   },
   indicator: {
-    marginLeft: 14
+    marginLeft: 14,
   },
   innerContainer: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center"
-  }
+    justifyContent: "center",
+  },
 });

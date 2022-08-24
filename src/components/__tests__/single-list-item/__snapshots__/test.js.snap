@@ -1,0 +1,1247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests single list item component renders single list item with custom end element 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <View>
+    <Text>
+      End element text
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with custom end subtitle style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 32,
+          "fontWeight": "700",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with custom end title style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 32,
+          "fontWeight": "700",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with custom endTitleSubtitleContainerStyle custom style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+        "padding": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test-title
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test-subtitle
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with custom height 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 75,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with custom start element 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View>
+    <Text>
+      Start element text
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with end subtitle 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with end title 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with endIcon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 16,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with shadow applied 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "shadowColor": "rgba(45, 97, 185, 0.04)",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 3,
+      },
+      "shadowOpacity": 1.25,
+      "shadowRadius": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with start subtitle 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 13,
+          "fontWeight": "400",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with start subtitle custom style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 32,
+          "fontWeight": "700",
+          "lineHeight": 18,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with start title custom style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 32,
+          "fontWeight": "700",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with startIcon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingRight": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with startTitleSubtitleContainer custom style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+        "padding": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;
+
+exports[`tests single list item component renders single list item with title 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#DEDEDE",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 56,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "rgba(23, 37, 86, 0.4)",
+          "fontSize": 26,
+        },
+        Object {
+          "paddingLeft": 16,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁔
+  </Text>
+</View>
+`;

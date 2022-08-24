@@ -22,25 +22,25 @@ export const BaseColors = {
   borderColor: "rgba(0, 0, 0,0.05)",
   grey: "#A09AA5",
   lightGrey: "#DEDEDE",
-  disabledInputGrey: "#F9F9F9"
+  disabledInputGrey: "#F9F9F9",
 };
 
 export const BaseShadow = {
   ...Platform.select({
     android: {
       shadowColor: "#A09AA5",
-      elevation: 2
+      elevation: 2,
     },
     ios: {
       shadowColor: "rgba(45, 97, 185, 0.04)",
       shadowOffset: {
         width: 3,
-        height: 4
+        height: 4,
       },
       shadowOpacity: 1.25,
-      shadowRadius: 1
-    }
-  })
+      shadowRadius: 1,
+    },
+  }),
 };
 
 export type Fonts = "h1" | "h2" | "h3" | "h4" | "p1";
@@ -49,28 +49,28 @@ export const BaseFonts: Record<Fonts, TextStyle> = {
   h1: {
     fontSize: 40,
     lineHeight: 60,
-    fontWeight: "500"
+    fontWeight: "500",
   },
   h2: {
     fontSize: 22,
     lineHeight: 30,
-    fontWeight: "500"
+    fontWeight: "500",
   },
   h3: {
     fontSize: 16,
     lineHeight: 24,
-    fontWeight: "500"
+    fontWeight: "500",
   },
   h4: {
     fontSize: 14,
     lineHeight: 20,
-    fontWeight: "500"
+    fontWeight: "500",
   },
   p1: {
     fontSize: 13,
     lineHeight: 18,
-    fontWeight: "400"
-  }
+    fontWeight: "400",
+  },
 };
 
 export type BaseColorType = typeof BaseColors;

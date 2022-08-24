@@ -7,7 +7,7 @@ import {
   ImageStyle,
   StyleProp,
   View,
-  ViewStyle
+  ViewStyle,
 } from "react-native";
 import { StylePropType } from "../utils";
 
@@ -51,15 +51,15 @@ function AvatarImage({
           width: size,
           height: size,
           borderRadius: size / 2,
-          backgroundColor
+          backgroundColor,
         },
-        style
+        style,
       ]}>
       <Image
         source={source}
         style={[
           { width: size, height: size, borderRadius: size / 2 },
-          imageStyle
+          imageStyle,
         ]}
         {...imageProps}
       />
@@ -74,7 +74,7 @@ AvatarImage.propTypes = {
   size: PropTypes.number,
   style: StylePropType,
   imageStyle: StylePropType,
-  backgroundColor: PropTypes.string
+  backgroundColor: PropTypes.string,
 };
 
 AvatarImage.displayName = "Avatar.Image";

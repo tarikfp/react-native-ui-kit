@@ -9,7 +9,7 @@ describe("tests avatar with image component", () => {
         <Avatar.Image
           style={{ width: 50, height: 50 }}
           source={{
-            uri: "https://reactjs.org/logo-og.png"
+            uri: "https://reactjs.org/logo-og.png",
           }}
         />
       )
@@ -25,7 +25,7 @@ describe("tests avatar with image component", () => {
           size={70}
           style={{ width: 50, height: 50, borderRadius: 8 }}
           source={{
-            uri: "https://reactjs.org/logo-og.png"
+            uri: "https://reactjs.org/logo-og.png",
           }}
         />
       )
@@ -40,7 +40,7 @@ describe("tests avatar with image component", () => {
         <Avatar.Image
           style={{ width: 50, height: 50, borderRadius: 8 }}
           source={{
-            uri: "https://reactjs.org/logo-og.png"
+            uri: "https://reactjs.org/logo-og.png",
           }}
           imageStyle={{ width: 30, height: 30 }}
         />
@@ -56,7 +56,7 @@ describe("tests avatar with image component", () => {
         <Avatar.Image
           style={{ width: 50, height: 50, borderRadius: 8 }}
           source={{
-            uri: "https://reactjs.org/logo-og.png"
+            uri: "https://reactjs.org/logo-og.png",
           }}
           backgroundColor="royalblue"
         />

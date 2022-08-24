@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests list item with icon component renders icon with custom icon props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    iconProps={
+      Object {
+        "name": "arrow-left",
+        "type": "MaterialCommunityIcons",
+      }
+    }
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon custom alignment 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon custom style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        Object {
+          "marginLeft": 8,
+        },
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon custom wrapperStyle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginLeft": 8,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon with backgroundColor 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    backgroundColor="royalblue"
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon with color 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon with name and type 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;
+
+exports[`tests list item with icon component renders list item icon with size 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#757575",
+          "fontSize": 45,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    󰁍
+  </Text>
+</View>
+`;

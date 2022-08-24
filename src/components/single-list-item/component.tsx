@@ -8,7 +8,7 @@ import {
   TextStyle,
   TouchableOpacity,
   View,
-  ViewStyle
+  ViewStyle,
 } from "react-native";
 import { BaseColors, BaseFonts, BaseShadow } from "../../theme";
 import { StylePropType } from "../utils";
@@ -35,7 +35,7 @@ export type Props = TouchableOpacityProps & {
    * Left aligned custom element, overrides startIcon
    *
    * ```js
-   *  <TextInput
+   *  <SingleListItem
    *     renderStartElement={() => (
    *       <View>
    *         <Image
@@ -55,7 +55,7 @@ export type Props = TouchableOpacityProps & {
    * Right aligned custom element, overrides endIcon
    *
    * ```js
-   *  <TextInput
+   *  <SingleListItem
    *     renderEndElement={() => (
    *       <View>
    *         <Image
@@ -125,7 +125,7 @@ function SingleListItem({
     name: "arrow-right",
     type: "MaterialCommunityIcons",
     size: 26,
-    color: BaseColors.textLight
+    color: BaseColors.textLight,
   },
   renderStartElement,
   renderEndElement,
@@ -153,7 +153,7 @@ function SingleListItem({
         styles.wrapper,
         { height },
         shadowStyle,
-        style
+        style,
       ])}
       {...touchableOpacityProps}>
       {renderStartElement?.(styles.startIcon)}
@@ -172,13 +172,13 @@ function SingleListItem({
           style={StyleSheet.flatten<ViewStyle>([
             styles.startTitleSubtitleContainer,
             { height },
-            startTitleSubtitleContainerStyle
+            startTitleSubtitleContainerStyle,
           ])}>
           {startTitle && (
             <Text
               style={StyleSheet.flatten<TextStyle>([
                 BaseFonts.h3,
-                startTitleStyle
+                startTitleStyle,
               ])}>
               {startTitle}
             </Text>
@@ -188,7 +188,7 @@ function SingleListItem({
             <Text
               style={StyleSheet.flatten<TextStyle>([
                 BaseFonts.p1,
-                startSubtitleStyle
+                startSubtitleStyle,
               ])}>
               {startSubtitle}
             </Text>
@@ -201,7 +201,7 @@ function SingleListItem({
           style={StyleSheet.flatten<ViewStyle>([
             styles.endTitleSubtitleContainer,
             { height },
-            endTitleSubtitleContainerStyle
+            endTitleSubtitleContainerStyle,
           ])}>
           {endTitle && (
             <Text style={StyleSheet.flatten([BaseFonts.h3, endTitleStyle])}>
@@ -249,7 +249,7 @@ SingleListItem.propTypes = {
   endTitle: PropTypes.string,
   endTitleStyle: StylePropType,
   endSubtitleStyle: StylePropType,
-  endSubtitle: PropTypes.string
+  endSubtitle: PropTypes.string,
 };
 
 interface Styles {
@@ -271,22 +271,22 @@ const styles = StyleSheet.create<Styles>({
     borderWidth: StyleSheet.hairlineWidth,
     height: 56,
     borderColor: BaseColors.borderColor,
-    backgroundColor: BaseColors.lightGrey
+    backgroundColor: BaseColors.lightGrey,
   },
   startIcon: {
-    paddingRight: 16
+    paddingRight: 16,
   },
   endIcon: {
-    paddingLeft: 16
+    paddingLeft: 16,
   },
   startTitleSubtitleContainer: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   endTitleSubtitleContainer: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center"
-  }
+    alignItems: "center",
+  },
 });

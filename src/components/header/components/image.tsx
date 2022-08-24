@@ -13,5 +13,5 @@ export default function HeaderImage({ style, ...imageProps }: Props) {
 HeaderImage.displayName = "Header.Image";
 
 HeaderImage.propTypes = {
-  style: StylePropType
+  style: StylePropType,
 };

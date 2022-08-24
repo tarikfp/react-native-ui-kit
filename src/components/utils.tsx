@@ -8,16 +8,8 @@ export const StylePropType = PropTypes.oneOfType([
   PropTypes.array,
   PropTypes.object,
   PropTypes.number,
-  PropTypes.bool
+  PropTypes.bool,
 ]);
-
-const RGBColorRegExp = new RegExp(
-  /^rgb[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*(?:,(?![)])|(?=[)]))){3}[)]$/gm
-);
-
-const RGBAColorRegExp = new RegExp(
-  /^rgba[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*,){3}\s*0*(?:\.\d+|1(?:\.0*)?)\s*[)]$/gm
-);
 
 const HexRegExp = new RegExp(/^#(?:[A-Fa-f0-9]{3}){1,2}$/gm);
 
@@ -162,7 +154,7 @@ const RnColorNames = {
   white: "#ffffff",
   whitesmoke: "#f5f5f5",
   yellow: "#ffff00",
-  yellowgreen: "#9acd32"
+  yellowgreen: "#9acd32",
 };
 
 /**
@@ -219,15 +211,11 @@ export function extractStyleEntry<T, K extends keyof T>(
 
 // Hex color helpers
 
-function isHexColor(color: string) {
+export function isHexColor(color: string) {
   return HexRegExp.test(color);
 }
 
-function isRgbColor(color: string) {
-  return RGBColorRegExp.test(color) && RGBAColorRegExp.test(color);
-}
-
-function colorNameToHex(color: string) {
+export function colorNameToHex(color: string) {
   const colorKey = color.toLowerCase() as keyof typeof RnColorNames;
 
   if (typeof RnColorNames[colorKey] !== "undefined") {
@@ -236,12 +224,12 @@ function colorNameToHex(color: string) {
   return "#ffffff";
 }
 
-function rgbToHex(red: number, green: number, blue: number) {
+export function rgbToHex(red: number, green: number, blue: number) {
   const rgb = (red << 16) | (green << 8) | (blue << 0);
   return "#" + (0x1000000 + rgb).toString(16).slice(1);
 }
 
-function getRgbColorsFromStr(rgbColor: string) {
+export function getRgbColorsFromStr(rgbColor: string) {
   const colorEntry = rgbColor
     .substring(rgbColor.indexOf("(") + 1, rgbColor.lastIndexOf(")"))
     .split(/,\s*/);
@@ -250,15 +238,23 @@ function getRgbColorsFromStr(rgbColor: string) {
     red: Number(colorEntry[0]),
     green: Number(colorEntry[1]),
     blue: Number(colorEntry[2]),
-    opacity: Number(colorEntry[3])
+    opacity: Number(colorEntry[3]),
   };
 }
 
-export function getHexColor(color: string) {
-  if (new Set(Object.keys(RnColorNames)).has(color)) {
-    return colorNameToHex(color);
-  }
+export function isRgbColor(color: string) {
+  const { green: G, blue: B, red: R } = getRgbColorsFromStr(color);
 
+  if (!Number.isNaN(G) && !Number.isNaN(B) && !Number.isNaN(R)) {
+    if (R < 0 || R > 255) return false;
+    else if (G < 0 || G > 255) return false;
+    else if (B < 0 || B > 255) return false;
+    else return true;
+  }
+  return false;
+}
+
+export function getHexColor(color: string) {
   if (color) {
     if (isHexColor(color)) return color;
 
@@ -270,6 +266,12 @@ export function getHexColor(color: string) {
         getRgbColorsFromStr(color).blue
       );
     }
+
+    if (new Set(Object.keys(RnColorNames)).has(color)) {
+      return colorNameToHex(color);
+    }
+
+    throw new Error(`Ensure provided string is a color: ${color}`);
   }
 }
 
@@ -283,10 +285,10 @@ export function findFinalChild(children: React.ReactNode): any {
     let finalChild = child;
 
     if (!React.isValidElement(finalChild)) {
-      return child;
+      return finalChild;
     }
 
-    if (finalChild.props.children) {
+    if (React.isValidElement(finalChild.props.children)) {
       finalChild = findFinalChild(finalChild.props.children);
     }
 

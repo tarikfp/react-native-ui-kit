@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests list item with button component renders list item button with alignment 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "borderColor": "rgba(0, 0, 0,0.05)",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "height": 35,
+        "justifyContent": "center",
+        "minWidth": 83,
+        "opacity": 1,
+        "padding": 8,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": undefined,
+            "fontSize": 13,
+            "fontWeight": "400",
+            "lineHeight": 18,
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`tests list item with button component renders list item button with custom wrapperStyle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 0,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginBottom": 40,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": undefined,
+        "borderColor": "rgba(0, 0, 0,0.05)",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "height": 35,
+        "justifyContent": "center",
+        "minWidth": 83,
+        "opacity": 1,
+        "padding": 8,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": undefined,
+            "fontSize": 13,
+            "fontWeight": "400",
+            "lineHeight": 18,
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </View>
+</View>
+`;

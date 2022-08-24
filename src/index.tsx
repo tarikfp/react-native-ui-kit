@@ -5,6 +5,6 @@ export { TextInput, TextInputProps } from "./components/input";
 export { ListItem, ListItemProps } from "./components/list-item";
 export {
   SingleListItem,
-  SingleListItemProps
+  SingleListItemProps,
 } from "./components/single-list-item";
 export { default as Icon, IconProps } from "./components/vector-icons";

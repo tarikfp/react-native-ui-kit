@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests list item component renders list item with custom backgroundColor 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "orange",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(35, 47, 72, 1)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests list item component renders list item with custom height 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(35, 47, 72, 1)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests list item component renders list item with custom style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 56,
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(35, 47, 72, 1)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests list item component renders list item with icon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "fontSize": 26,
+              "marginHorizontal": 4,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰁍
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests list item component renders list item with image 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 36,
+          "marginHorizontal": 4,
+          "width": 30,
+        },
+        Object {
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`tests list item component renders list item with shadow 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+      "shadowColor": "rgba(45, 97, 185, 0.04)",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 3,
+      },
+      "shadowOpacity": 1.25,
+      "shadowRadius": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(35, 47, 72, 1)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests list item component renders list item with title 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 8,
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "minWidth": "100%",
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 56,
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(35, 47, 72, 1)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;

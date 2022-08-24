@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests icon component renders icon with type and name 1`] = `
+<Text
+  allowFontScaling={false}
+  selectable={false}
+  style={
+    Array [
+      Object {
+        "color": "#757575",
+        "fontSize": 20,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Design Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  󰁍
+</Text>
+`;

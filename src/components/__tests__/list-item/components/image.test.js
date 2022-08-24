@@ -1,12 +1,12 @@
 import * as React from "react";
 import renderer from "react-test-renderer";
-import HeaderImage from "../../../header/components/image";
+import ListItemImage from "../../../list-item/components/image";
 
-describe("tests header image component", () => {
-  it("renders header image with source", () => {
+describe("tests list-item image component", () => {
+  it("renders list-item image with source", () => {
     const tree = renderer
       .create(
-        <HeaderImage
+        <ListItemImage
           style={{ width: 50, height: 50 }}
           source={{
             uri: "https://reactjs.org/logo-og.png",

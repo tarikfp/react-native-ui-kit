@@ -1,6 +1,6 @@
 import * as React from "react";
 import renderer from "react-test-renderer";
-import { default as HeaderTitle } from "../../../header/components/title";
+import HeaderTitle from "../../../header/components/title";
 
 describe("tests header title component", () => {
   it("renders header title", () => {

@@ -7,7 +7,7 @@ import {
   TextProps,
   TextStyle,
   View,
-  ViewStyle
+  ViewStyle,
 } from "react-native";
 import { BaseColors, BaseFonts } from "../../../theme";
 import { StylePropType } from "../../utils";
@@ -61,18 +61,18 @@ export default function ListItemTitle({
 const styles = StyleSheet.create({
   wrapper: {
     justifyContent: "center",
-    alignItems: "flex-start"
+    alignItems: "flex-start",
   },
   titleStyle: {
     ...BaseFonts.h3,
     textAlign: "left",
-    color: BaseColors.textDark
+    color: BaseColors.textDark,
   },
   subtitleStyle: {
     textAlign: "left",
     ...BaseFonts.h4,
-    color: BaseColors.textDark
-  }
+    color: BaseColors.textDark,
+  },
 });
 
 ListItemTitle.displayName = "ListItem.Title";
@@ -82,5 +82,5 @@ ListItemTitle.propTypes = {
   wrapperStyle: StylePropType,
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  subtitleStyle: StylePropType
+  subtitleStyle: StylePropType,
 };

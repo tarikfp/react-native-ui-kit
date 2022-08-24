@@ -6,7 +6,7 @@ import {
   Text,
   TextStyle,
   View,
-  ViewStyle
+  ViewStyle,
 } from "react-native";
 import { StylePropType } from "../utils";
 
@@ -49,14 +49,14 @@ function AvatarText({
   labelColor = "#FFFFFF",
   backgroundColor = "rgba(35, 47, 72, 1)",
   labelStyle,
-  style
+  style,
 }: Props) {
   return (
     <View
       style={[
         { width: size, height: size, borderRadius: size / 2, backgroundColor },
         styles.wrapper,
-        style
+        style,
       ]}>
       <Text
         style={[
@@ -64,9 +64,9 @@ function AvatarText({
           {
             color: labelColor,
             fontSize: size / 2.25,
-            lineHeight: size
+            lineHeight: size,
           },
-          labelStyle
+          labelStyle,
         ]}
         numberOfLines={1}>
         {label}
@@ -83,7 +83,7 @@ AvatarText.propTypes = {
   labelColor: PropTypes.string,
   backgroundColor: PropTypes.string,
   style: StylePropType,
-  labelStyle: StylePropType
+  labelStyle: StylePropType,
 };
 
 AvatarText.displayName = "Avatar.Text";
@@ -91,10 +91,10 @@ AvatarText.displayName = "Avatar.Text";
 const styles = StyleSheet.create({
   wrapper: {
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   text: {
     textAlign: "center",
-    textAlignVertical: "center"
-  }
+    textAlignVertical: "center",
+  },
 });

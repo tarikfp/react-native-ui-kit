@@ -47,14 +47,14 @@ function AvatarIcon({
   name,
   color,
   type,
-  style
+  style,
 }: Props) {
   return (
     <View
       style={[
         { width: size, height: size, borderRadius: size / 2, backgroundColor },
         styles.wrapper,
-        style
+        style,
       ]}>
       <Icon
         size={size * 0.7}
@@ -76,7 +76,7 @@ AvatarIcon.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
   color: PropTypes.string,
-  iconProps: PropTypes.object
+  iconProps: PropTypes.object,
 };
 
 AvatarIcon.displayName = "Avatar.Icon";
@@ -84,6 +84,6 @@ AvatarIcon.displayName = "Avatar.Icon";
 const styles = StyleSheet.create({
   wrapper: {
     justifyContent: "center",
-    alignItems: "center"
-  }
+    alignItems: "center",
+  },
 });
