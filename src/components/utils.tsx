@@ -8,15 +8,15 @@ export const StylePropType = PropTypes.oneOfType([
   PropTypes.array,
   PropTypes.object,
   PropTypes.number,
-  PropTypes.bool,
+  PropTypes.bool
 ]);
 
 const RGBColorRegExp = new RegExp(
-  /^rgb[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*(?:,(?![)])|(?=[)]))){3}[)]$/gm,
+  /^rgb[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*(?:,(?![)])|(?=[)]))){3}[)]$/gm
 );
 
 const RGBAColorRegExp = new RegExp(
-  /^rgba[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*,){3}\s*0*(?:\.\d+|1(?:\.0*)?)\s*[)]$/gm,
+  /^rgba[(](?:\s*0*(?:\d\d?(?:\.\d+)?(?:\s*%)?|\.\d+\s*%|100(?:\.0*)?\s*%|(?:1\d\d|2[0-4]\d|25[0-5])(?:\.\d+)?)\s*,){3}\s*0*(?:\.\d+|1(?:\.0*)?)\s*[)]$/gm
 );
 
 const HexRegExp = new RegExp(/^#(?:[A-Fa-f0-9]{3}){1,2}$/gm);
@@ -162,7 +162,7 @@ const RnColorNames = {
   white: "#ffffff",
   whitesmoke: "#f5f5f5",
   yellow: "#ffff00",
-  yellowgreen: "#9acd32",
+  yellowgreen: "#9acd32"
 };
 
 /**
@@ -208,7 +208,7 @@ export function getContrastedTextColor(hexcolor: string | undefined) {
  */
 export function extractStyleEntry<T, K extends keyof T>(
   style: StyleProp<T>,
-  styleKey: K,
+  styleKey: K
 ) {
   if (Array.isArray(style)) {
     return (style[style.length - 1] as T)[styleKey];
@@ -250,7 +250,7 @@ function getRgbColorsFromStr(rgbColor: string) {
     red: Number(colorEntry[0]),
     green: Number(colorEntry[1]),
     blue: Number(colorEntry[2]),
-    opacity: Number(colorEntry[3]),
+    opacity: Number(colorEntry[3])
   };
 }
 
@@ -267,7 +267,7 @@ export function getHexColor(color: string) {
       return rgbToHex(
         getRgbColorsFromStr(color).red,
         getRgbColorsFromStr(color).green,
-        getRgbColorsFromStr(color).blue,
+        getRgbColorsFromStr(color).blue
       );
     }
   }

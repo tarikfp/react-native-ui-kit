@@ -1,4 +1,4 @@
 export {
   default as SingleListItem,
-  Props as SingleListItemProps,
+  Props as SingleListItemProps
 } from "./component";

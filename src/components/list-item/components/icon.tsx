@@ -34,7 +34,7 @@ export default function ListItemIcon({
 }
 
 const getWrapperStyle = (
-  alignment?: "start" | "end",
+  alignment?: "start" | "end"
 ): StyleProp<ViewStyle> => ({
   flex: alignment ? 1 : 0,
   flexDirection: "row",
@@ -43,12 +43,12 @@ const getWrapperStyle = (
       ? "flex-start"
       : alignment === "end"
       ? "flex-end"
-      : "center",
+      : "center"
 });
 
 ListItemIcon.displayName = "ListItem.Icon";
 
 ListItemIcon.propTypes = {
   style: StylePropType,
-  alignment: PropTypes.oneOf(["start", "end"]),
+  alignment: PropTypes.oneOf(["start", "end"])
 };

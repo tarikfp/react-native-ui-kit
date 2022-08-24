@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function ColumnContainer({
   children,
-  title,
+  title
 }: {
   children: React.ReactNode;
   title: string;
@@ -22,17 +22,17 @@ const styles = StyleSheet.create({
     paddingBottom: 24,
     borderBottomWidth: 1,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "center"
   },
   columnContainer: {
     justifyContent: "space-between",
-    alignContent: "center",
+    alignContent: "center"
   },
   sectionTitle: {
     textAlign: "center",
     marginVertical: 24,
     fontSize: 24,
     fontWeight: "700",
-    color: "#FFFFFF",
-  },
+    color: "#FFFFFF"
+  }
 });

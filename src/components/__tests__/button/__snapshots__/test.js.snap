@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests button component renders button with custom background color 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "orange",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with custom disabled background color 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "slategray",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with custom end icon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 22,
+          },
+          Object {
+            "marginLeft": 6,
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰁔
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with custom label style 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with custom start icon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 22,
+          },
+          Object {
+            "marginRight": 6,
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰁍
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with label 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      button label
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with loading state 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    />
+    <ActivityIndicator
+      size={22}
+      style={
+        Object {
+          "marginLeft": 14,
+        }
+      }
+      testID="button-loading"
+    />
+  </View>
+</View>
+`;
+
+exports[`tests button component renders button with size 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 8,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": undefined,
+          "fontSize": 14,
+          "fontWeight": "500",
+          "lineHeight": 20,
+        }
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;

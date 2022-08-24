@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests avatar with text component renders avatar with text with backgroundColor 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": 15,
+        "height": 30,
+        "width": 30,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "royalblue",
+          "fontSize": 13.333333333333334,
+          "lineHeight": 30,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests avatar with text component renders avatar with text with custom label style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 15,
+        "height": 30,
+        "width": 30,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 13.333333333333334,
+          "lineHeight": 30,
+        },
+        Object {
+          "fontSize": 20,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests avatar with text component renders avatar with text with custom style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": 15,
+        "height": 30,
+        "width": 30,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "marginLeft": 20,
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "royalblue",
+          "fontSize": 13.333333333333334,
+          "lineHeight": 30,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests avatar with text component renders avatar with text with label 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 14.222222222222221,
+          "lineHeight": 32,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests avatar with text component renders avatar with text with label color 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 15,
+        "height": 30,
+        "width": 30,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "royalblue",
+          "fontSize": 13.333333333333334,
+          "lineHeight": 30,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests avatar with text component renders avatar with text with size 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgba(35, 47, 72, 1)",
+        "borderRadius": 15,
+        "height": 30,
+        "width": 30,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 13.333333333333334,
+          "lineHeight": 30,
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;

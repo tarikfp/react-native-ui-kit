@@ -2,74 +2,80 @@ import * as React from "react";
 import renderer from "react-test-renderer";
 import { default as Avatar } from "../../avatar";
 
-it("renders avatar icon with name and type props", () => {
-  const tree = renderer
-    .create(<Avatar.Icon name="arrow-left" type="MaterialCommunityIcons" />)
-    .toJSON();
+describe("tests avatar with icon component", () => {
+  it("renders avatar with icon with name and type", () => {
+    const tree = renderer
+      .create(<Avatar.Icon name="arrow-left" type="MaterialCommunityIcons" />)
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
-});
+    expect(tree).toMatchSnapshot();
+  });
 
-it("renders avatar icon with size prop", () => {
-  const tree = renderer
-    .create(
-      <Avatar.Icon name="arrow-left" type="MaterialCommunityIcons" size={45} />,
-    )
-    .toJSON();
+  it("renders avatar with icon with size", () => {
+    const tree = renderer
+      .create(
+        <Avatar.Icon
+          name="arrow-left"
+          type="MaterialCommunityIcons"
+          size={45}
+        />
+      )
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
-});
+    expect(tree).toMatchSnapshot();
+  });
 
-it("renders avatar icon with color prop", () => {
-  const tree = renderer
-    .create(
-      <Avatar.Icon
-        name="arrow-left"
-        type="MaterialCommunityIcons"
-        color="orange"
-      />,
-    )
-    .toJSON();
+  it("renders avatar with icon with color", () => {
+    const tree = renderer
+      .create(
+        <Avatar.Icon
+          name="arrow-left"
+          type="MaterialCommunityIcons"
+          color="orange"
+        />
+      )
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
-});
+    expect(tree).toMatchSnapshot();
+  });
 
-it("renders avatar icon with backgroundColor prop", () => {
-  const tree = renderer
-    .create(
-      <Avatar.Icon
-        name="arrow-left"
-        type="MaterialCommunityIcons"
-        backgroundColor="royalblue"
-      />,
-    )
-    .toJSON();
+  it("renders avatar with icon with backgroundColor", () => {
+    const tree = renderer
+      .create(
+        <Avatar.Icon
+          name="arrow-left"
+          type="MaterialCommunityIcons"
+          backgroundColor="royalblue"
+        />
+      )
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
-});
+    expect(tree).toMatchSnapshot();
+  });
 
-it("renders avatar icon custom style", () => {
-  const tree = renderer
-    .create(
-      <Avatar.Icon
-        name="arrow-left"
-        type="MaterialCommunityIcons"
-        style={{ marginLeft: 8 }}
-      />,
-    )
-    .toJSON();
+  it("renders avatar with icon custom style", () => {
+    const tree = renderer
+      .create(
+        <Avatar.Icon
+          name="arrow-left"
+          type="MaterialCommunityIcons"
+          style={{ marginLeft: 8 }}
+        />
+      )
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
-});
+    expect(tree).toMatchSnapshot();
+  });
 
-it("renders icon with custom icon props ", () => {
-  const tree = renderer
-    .create(
-      <Avatar.Icon
-        iconProps={{ name: "arrow-left", type: "MaterialCommunityIcons" }}
-      />,
-    )
-    .toJSON();
+  it("renders icon with custom icon ", () => {
+    const tree = renderer
+      .create(
+        <Avatar.Icon
+          iconProps={{ name: "arrow-left", type: "MaterialCommunityIcons" }}
+        />
+      )
+      .toJSON();
 
-  expect(tree).toMatchSnapshot();
+    expect(tree).toMatchSnapshot();
+  });
 });

@@ -7,7 +7,7 @@ import {
   TextStyle,
   TouchableOpacity,
   TouchableOpacityProps,
-  ViewStyle,
+  ViewStyle
 } from "react-native";
 import { BaseColors, BaseFonts, BaseShadow } from "../../theme";
 import ListItemButton from "./components/button";
@@ -76,7 +76,7 @@ const ListItem = ({
         styles.wrapper,
         { height, backgroundColor },
         shadowStyle,
-        style,
+        style
       ])}
       {...touchableOpacityProps}>
       {React.Children.toArray(children)
@@ -97,27 +97,27 @@ const ListItem = ({
             props = {
               wrapperStyle: {
                 height,
-                marginLeft: childInd !== 0 ? 8 : 0,
+                marginLeft: childInd !== 0 ? 8 : 0
               },
-              style: [BaseFonts.h3, child.props.style],
+              style: [BaseFonts.h3, child.props.style]
             };
           }
 
           if (child.type === ListItemIcon) {
             props = {
-              style: [styles.icon, child.props.style],
+              style: [styles.icon, child.props.style]
             };
           }
 
           if (child.type === ListItemImage) {
             props = {
-              style: [styles.image, child.props.style],
+              style: [styles.image, child.props.style]
             };
           }
 
           if (child.type === ListItemButton) {
             props = {
-              style: [styles.button, child.props.style],
+              style: [styles.button, child.props.style]
             };
           }
 
@@ -137,7 +137,7 @@ export default ListItem;
 ListItem.propTypes = {
   height: PropTypes.number,
   hasShadow: PropTypes.bool,
-  backgroundColor: PropTypes.string,
+  backgroundColor: PropTypes.string
 };
 
 interface Styles {
@@ -157,18 +157,18 @@ const styles = StyleSheet.create<Styles>({
     paddingVertical: 8,
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: BaseColors.borderColor,
-    backgroundColor: BaseColors.paper,
+    backgroundColor: BaseColors.paper
   },
   icon: {
     fontSize: 26,
-    marginHorizontal: 4,
+    marginHorizontal: 4
   },
   button: {
-    marginHorizontal: 4,
+    marginHorizontal: 4
   },
   image: {
     marginHorizontal: 4,
     width: 30,
-    height: 36,
-  },
+    height: 36
+  }
 });

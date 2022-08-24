@@ -7,7 +7,7 @@ import {
   TextProps,
   TextStyle,
   View,
-  ViewStyle,
+  ViewStyle
 } from "react-native";
 import { BaseColors, BaseFonts } from "../../../theme";
 import { StylePropType } from "../../utils";
@@ -61,18 +61,18 @@ export default function HeaderTitle({
 const styles = StyleSheet.create({
   wrapper: {
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center"
   },
   titleStyle: {
     ...BaseFonts.h2,
     textAlign: "left",
-    color: BaseColors.textWhite,
+    color: BaseColors.textWhite
   },
   subtitleStyle: {
     ...BaseFonts.h3,
     textAlign: "left",
-    color: BaseColors.textWhite,
-  },
+    color: BaseColors.textWhite
+  }
 });
 
 HeaderTitle.displayName = "Header.Title";
@@ -82,5 +82,5 @@ HeaderTitle.propTypes = {
   wrapperStyle: StylePropType,
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  subtitleStyle: StylePropType,
+  subtitleStyle: StylePropType
 };

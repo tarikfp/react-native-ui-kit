@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests avatar with image component renders avatar with image with backgroundColor 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "royalblue",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "borderRadius": 8,
+        "height": 50,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "width": 32,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`tests avatar with image component renders avatar with image with custom image style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": undefined,
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "borderRadius": 8,
+        "height": 50,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "width": 32,
+        },
+        Object {
+          "height": 30,
+          "width": 30,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`tests avatar with image component renders avatar with image with custom size 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": undefined,
+        "borderRadius": 35,
+        "height": 70,
+        "width": 70,
+      },
+      Object {
+        "borderRadius": 8,
+        "height": 50,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 35,
+          "height": 70,
+          "width": 70,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`tests avatar with image component renders avatar with image with source uri and custom style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": undefined,
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      Object {
+        "height": 50,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "width": 32,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

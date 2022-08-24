@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders avatar icon custom style 1`] = `
+exports[`tests avatar with icon component renders avatar with icon custom style 1`] = `
 <View
   style={
     Array [
@@ -44,7 +44,7 @@ exports[`renders avatar icon custom style 1`] = `
 </View>
 `;
 
-exports[`renders avatar icon with backgroundColor prop 1`] = `
+exports[`tests avatar with icon component renders avatar with icon with backgroundColor 1`] = `
 <View
   style={
     Array [
@@ -86,7 +86,7 @@ exports[`renders avatar icon with backgroundColor prop 1`] = `
 </View>
 `;
 
-exports[`renders avatar icon with color prop 1`] = `
+exports[`tests avatar with icon component renders avatar with icon with color 1`] = `
 <View
   style={
     Array [
@@ -128,7 +128,7 @@ exports[`renders avatar icon with color prop 1`] = `
 </View>
 `;
 
-exports[`renders avatar icon with name and type props 1`] = `
+exports[`tests avatar with icon component renders avatar with icon with name and type 1`] = `
 <View
   style={
     Array [
@@ -170,7 +170,7 @@ exports[`renders avatar icon with name and type props 1`] = `
 </View>
 `;
 
-exports[`renders avatar icon with size prop 1`] = `
+exports[`tests avatar with icon component renders avatar with icon with size 1`] = `
 <View
   style={
     Array [
@@ -212,7 +212,7 @@ exports[`renders avatar icon with size prop 1`] = `
 </View>
 `;
 
-exports[`renders icon with custom icon props  1`] = `
+exports[`tests avatar with icon component renders icon with custom icon  1`] = `
 <View
   style={
     Array [

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests header title component renders header title 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "lineHeight": 30,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests header title component renders header title with custom subtitle style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "lineHeight": 30,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests header title component renders header title with custom title style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "lineHeight": 30,
+          "textAlign": "left",
+        },
+        Object {
+          "fontSize": 40,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests header title component renders header title with custom wrapper style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "height": 70,
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "lineHeight": 30,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
+
+exports[`tests header title component renders header title with subtitle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "lineHeight": 30,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(255, 255, 255, 1)",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+        undefined,
+      ]
+    }
+  >
+    Test subtitle
+  </Text>
+</View>
+`;

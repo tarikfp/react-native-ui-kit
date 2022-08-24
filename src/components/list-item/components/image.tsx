@@ -13,5 +13,5 @@ export default function ListItemImage({ style, ...imageProps }: Props) {
 ListItemImage.displayName = "ListItem.Image";
 
 ListItemImage.propTypes = {
-  style: StylePropType,
+  style: StylePropType
 };

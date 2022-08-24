@@ -3,7 +3,7 @@ import type {
   ColorValue,
   GestureResponderEvent,
   TextProps,
-  TextStyle,
+  TextStyle
 } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import Entypo from "react-native-vector-icons/Entypo";
@@ -135,7 +135,7 @@ function Icon(props: IconProps) {
     color,
     size,
     onPress,
-    style,
+    style
   };
 
   switch (type) {
@@ -211,7 +211,7 @@ function Icon(props: IconProps) {
 
 Icon.defaultProps = {
   size: 20,
-  color: "#757575",
+  color: "#757575"
 };
 
 export default Icon;

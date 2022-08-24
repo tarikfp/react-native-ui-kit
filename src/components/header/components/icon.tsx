@@ -36,7 +36,7 @@ export default function HeaderIcon({
 }
 
 const getWrapperStyle = (
-  alignment?: "start" | "end",
+  alignment?: "start" | "end"
 ): StyleProp<ViewStyle> => ({
   flex: alignment ? 1 : 0,
   flexDirection: "row",
@@ -45,13 +45,13 @@ const getWrapperStyle = (
       ? "flex-start"
       : alignment === "end"
       ? "flex-end"
-      : "center",
+      : "center"
 });
 
 HeaderIcon.propTypes = {
   style: StylePropType,
   wrapperStyle: StylePropType,
-  alignment: PropTypes.oneOf(["start", "end"]),
+  alignment: PropTypes.oneOf(["start", "end"])
 };
 
 HeaderIcon.displayName = "Header.Icon";

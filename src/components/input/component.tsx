@@ -9,7 +9,7 @@ import {
   TextInputProps as RNInputProps,
   TextStyle,
   View,
-  ViewStyle,
+  ViewStyle
 } from "react-native";
 import { BaseColors, BaseFonts } from "../../theme";
 import { default as Icon, IconProps } from "../vector-icons";
@@ -141,7 +141,7 @@ export type Props = RNInputProps & {
    * ```
    */
   readonly renderLoading?: (
-    containerStyle: StyleProp<ViewStyle>,
+    containerStyle: StyleProp<ViewStyle>
   ) => React.ReactNode;
   /**
    * Renders custom password icon while overriding default one. Ensure isPassword is set to true.
@@ -165,7 +165,7 @@ export type Props = RNInputProps & {
    */
   readonly renderPasswordIcon?: ({
     isSecureTextEntry,
-    toggleSecureTextEntry,
+    toggleSecureTextEntry
   }: {
     isSecureTextEntry: boolean;
     toggleSecureTextEntry: () => void;
@@ -224,7 +224,7 @@ export type Props = RNInputProps & {
    */
   readonly renderErrorSection?: ({
     errorMessage,
-    containerStyle,
+    containerStyle
   }: {
     errorMessage?: string;
     containerStyle: StyleProp<ViewStyle>;
@@ -241,7 +241,7 @@ const DEFAULT_INPUT_HEIGHT = 56;
 
 const defaultIconProps: Pick<IconProps, "size" | "color"> = {
   size: 24,
-  color: BaseColors.textLight,
+  color: BaseColors.textLight
 };
 
 const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
@@ -278,7 +278,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
     isPassword = false,
     ...props
   }: Props,
-  ref: React.ForwardedRef<TextInput>,
+  ref: React.ForwardedRef<TextInput>
 ) => {
   const [isSecureTextEntry, setSecureTextEntry] =
     React.useState<boolean>(isPassword);
@@ -307,7 +307,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
     // Props end icon
     if (endIconProps) {
       return {
-        ...endIconProps,
+        ...endIconProps
       };
     }
     // End icon - text clear
@@ -316,7 +316,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
         ...defaultIconProps,
         name: "close-circle",
         type: "Ionicons",
-        onPress: resetText,
+        onPress: resetText
       };
     }
     // End icon - password eye
@@ -325,7 +325,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
         ...defaultIconProps,
         type: "Ionicons",
         onPress: toggleSecureTextEntry,
-        name: isSecureTextEntry ? "eye-sharp" : "eye-off",
+        name: isSecureTextEntry ? "eye-sharp" : "eye-off"
       };
     }
 
@@ -394,10 +394,10 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
                 height,
                 backgroundColor,
                 borderColor:
-                  errorMessage !== undefined ? errorColor : borderColor,
+                  errorMessage !== undefined ? errorColor : borderColor
               },
               style,
-              inputStyle,
+              inputStyle
             ])}
             value={value}
             secureTextEntry={isSecureTextEntry}
@@ -442,7 +442,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
         <>
           {renderErrorSection?.({
             errorMessage,
-            containerStyle: styles.errorMessageContainer,
+            containerStyle: styles.errorMessageContainer
           })}
 
           {renderErrorSection === undefined && (
@@ -458,7 +458,7 @@ const Input: React.ForwardRefRenderFunction<TextInput, Props> = (
               <Text
                 style={StyleSheet.flatten<TextStyle>([
                   styles.errorMessageText,
-                  { color: errorColor },
+                  { color: errorColor }
                 ])}>
                 {errorMessage}
               </Text>
@@ -489,26 +489,26 @@ interface Styles {
 
 const styles = StyleSheet.create<Styles>({
   rootWrapper: {
-    alignItems: "flex-start",
+    alignItems: "flex-start"
   },
   labelContainer: {
     width: "100%",
-    marginBottom: 8,
+    marginBottom: 8
   },
   label: {
     ...BaseFonts.p1,
-    color: BaseColors.textDark,
+    color: BaseColors.textDark
   },
   centerContainer: {
     flexDirection: "row",
-    alignItems: "center",
+    alignItems: "center"
   },
   startIconContainer: {
     alignItems: "center",
     justifyContent: "center",
     position: "absolute",
     zIndex: 1,
-    left: INPUT_ELEMENT_HORIZONTAL_SPACING,
+    left: INPUT_ELEMENT_HORIZONTAL_SPACING
   },
   textInput: {
     width: "100%",
@@ -518,19 +518,19 @@ const styles = StyleSheet.create<Styles>({
     borderWidth: 1,
     borderRadius: 8,
     fontSize: 16,
-    color: BaseColors.textDark,
+    color: BaseColors.textDark
   },
   loadingIndicator: {
     position: "absolute",
     zIndex: 1,
-    right: INPUT_ELEMENT_HORIZONTAL_SPACING,
+    right: INPUT_ELEMENT_HORIZONTAL_SPACING
   },
   endIconContainer: {
     justifyContent: "center",
     alignItems: "center",
     position: "absolute",
     zIndex: 1,
-    right: INPUT_ELEMENT_HORIZONTAL_SPACING,
+    right: INPUT_ELEMENT_HORIZONTAL_SPACING
   },
   endText: {
     position: "absolute",
@@ -538,23 +538,23 @@ const styles = StyleSheet.create<Styles>({
     right: INPUT_ELEMENT_HORIZONTAL_SPACING,
     flex: 1,
     ...BaseFonts.h4,
-    color: BaseColors.textLight,
+    color: BaseColors.textLight
   },
   errorMessageContainer: {
     flexDirection: "row",
     width: "100%",
     alignItems: "center",
     justifyContent: "flex-start",
-    marginVertical: 6,
+    marginVertical: 6
   },
   errorMessageIcon: {
-    marginHorizontal: 6,
+    marginHorizontal: 6
   },
   errorMessageText: {
     ...BaseFonts.p1,
     textAlign: "left",
-    color: BaseColors.textRed,
-  },
+    color: BaseColors.textRed
+  }
 });
 
 // @see @types/react/index.d.ts/ForwardRefRenderFunction line 574

@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests header component renders header with custom backgroundColor 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "orange",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255, 255, 255, 1)",
+            "fontSize": 22,
+            "fontWeight": "500",
+            "lineHeight": 30,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            Object {
+              "color": "rgba(255, 255, 255, 1)",
+              "marginLeft": 0,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests header component renders header with custom height 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255, 255, 255, 1)",
+            "fontSize": 22,
+            "fontWeight": "500",
+            "lineHeight": 30,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            Object {
+              "color": "rgba(255, 255, 255, 1)",
+              "marginLeft": 0,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests header component renders header with custom style 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "paddingHorizontal": 20,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 56,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255, 255, 255, 1)",
+            "fontSize": 22,
+            "fontWeight": "500",
+            "lineHeight": 30,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            Object {
+              "color": "rgba(255, 255, 255, 1)",
+              "marginLeft": 0,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests header component renders header with icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 0,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "fontSize": 26,
+              "marginHorizontal": 4,
+            },
+            undefined,
+          ],
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰁍
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests header component renders header with image 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://reactjs.org/logo-og.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 36,
+          "marginHorizontal": 4,
+          "width": 30,
+        },
+        Object {
+          "height": 40,
+          "width": 40,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`tests header component renders header with shadow 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 75,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "shadowColor": "rgba(45, 97, 185, 0.04)",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 3,
+      },
+      "shadowOpacity": 1.25,
+      "shadowRadius": 1,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 75,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255, 255, 255, 1)",
+            "fontSize": 22,
+            "fontWeight": "500",
+            "lineHeight": 30,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            Object {
+              "color": "rgba(255, 255, 255, 1)",
+              "marginLeft": 0,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`tests header component renders header with title 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0075E1",
+      "borderColor": "rgba(0, 0, 0,0.05)",
+      "borderWidth": 0.5,
+      "flexDirection": "row",
+      "height": 56,
+      "paddingHorizontal": 16,
+      "paddingVertical": 8,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 56,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255, 255, 255, 1)",
+            "fontSize": 22,
+            "fontWeight": "500",
+            "lineHeight": 30,
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "lineHeight": 24,
+            },
+            Object {
+              "color": "rgba(255, 255, 255, 1)",
+              "marginLeft": 0,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;

@@ -7,7 +7,7 @@ import {
   TextStyle,
   View,
   ViewProps,
-  ViewStyle,
+  ViewStyle
 } from "react-native";
 import { BaseColors, BaseFonts, BaseShadow } from "../../theme";
 import { StylePropType } from "../utils";
@@ -74,7 +74,7 @@ function Header({
         styles.wrapper,
         { height, backgroundColor },
         shadowStyle,
-        style,
+        style
       ])}
       {...touchableOpacityProps}>
       {React.Children.toArray(children)
@@ -94,28 +94,28 @@ function Header({
           if (child.type === HeaderTitle) {
             props = {
               wrapperStyle: {
-                height,
+                height
               },
               style: [
                 BaseFonts.h3,
                 {
                   color: BaseColors.textWhite,
-                  marginLeft: childInd !== 0 ? 8 : 0,
+                  marginLeft: childInd !== 0 ? 8 : 0
                 },
-                child.props.style,
-              ],
+                child.props.style
+              ]
             };
           }
 
           if (child.type === HeaderIcon) {
             props = {
-              style: [styles.icon, child.props.style],
+              style: [styles.icon, child.props.style]
             };
           }
 
           if (child.type === HeaderImage) {
             props = {
-              style: [styles.image, child.props.style],
+              style: [styles.image, child.props.style]
             };
           }
 
@@ -135,7 +135,7 @@ Header.propTypes = {
   style: StylePropType,
   height: PropTypes.number,
   hasShadow: PropTypes.bool,
-  backgroundColor: PropTypes.string,
+  backgroundColor: PropTypes.string
 };
 
 interface Styles {
@@ -154,15 +154,15 @@ const styles = StyleSheet.create<Styles>({
     borderWidth: StyleSheet.hairlineWidth,
     height: 56,
     borderColor: BaseColors.borderColor,
-    backgroundColor: BaseColors.paper,
+    backgroundColor: BaseColors.paper
   },
   icon: {
     fontSize: 26,
-    marginHorizontal: 4,
+    marginHorizontal: 4
   },
   image: {
     marginHorizontal: 4,
     width: 30,
-    height: 36,
-  },
+    height: 36
+  }
 });
