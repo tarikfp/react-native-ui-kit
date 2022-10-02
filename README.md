@@ -2,7 +2,7 @@
 
 <div align="center">
 
- [![](https://img.shields.io/npm/dw/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/bundlephobia/minzip/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/npm/v/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/github/license/tarikpnr/react-native-ui-kit)](https://github.com/tarikpnr/react-native-ui-kit/blob/master/LICENSE)
+[![](https://img.shields.io/bundlephobia/minzip/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/npm/v/@tarikfp/react-native-ui-kit)](https://www.npmjs.com/package/@tarikfp/react-native-ui-kit) [![](https://img.shields.io/github/license/tarikpnr/react-native-ui-kit)](https://github.com/tarikpnr/react-native-ui-kit/blob/master/LICENSE)
  
  </div>
 
