@@ -46,6 +46,10 @@ or
   npm install @tarikfp/react-native-ui-kit
 ```
 
+### Install react-native-vector-icons
+This project uses the [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) library.
+Ensure to install it prior to running the project to avoid any unexpected errors.
+
 ## Components
 
 ### Button
